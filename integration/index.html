@@ -4,43 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Matthias Lagrabe">
+    <meta name="description" content="Presentation of my projects">
+    <title>Mon portfolio</title>
 </head>
 <body>
     <header>
         <h1>MON PORTFOLIO</h1>
         <nav>
             <ul>
-                <li><a href="#projet-section">PROJETS</a></li>
-                <li><a href="#etudes">ETUDES</a></li>
-                <li><a href="#articles">ARTICLES</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#projet-section" title="My projects">PROJETS</a></li>
+                <li><a href="#etudes" title="Graduate studies">ETUDES</a></li>
+                <li><a href="#articles"title="Check my articles">ARTICLES</a></li>
+                <li><a href="#contact" title="Contact me">CONTACT</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <h2>Matthias Lagrabe</h2>
-        <img src="https://via.placeholder.com/350x150" alt="picture_for_portolio">
+        <img src="https://via.placeholder.com/350x150" alt="name background">
 
         <section class="projet-section" id="projet-section">
             <h2>Projets réalisés</h2>
 
             <article class="projet-section">
-                <img src="https://via.placeholder.com/150" alt="project1">
+                <img src="https://via.placeholder.com/150" alt="picture for project1">
                 <h3>PROJET 1</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, molestiae blanditiis hic consequatur, ad maiores voluptatum suscipit laudantium a voluptate reiciendis libero neque dicta, maxime impedit nesciunt reprehenderit vitae sit.</p>
                 <button>En savoir plus</button>
             </article>
 
             <article class="projet-section">
-                <img src="https://via.placeholder.com/150" alt="project1">
+                <img src="https://via.placeholder.com/150" alt="picture for project2">
                 <h3>PROJET 2</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, molestiae blanditiis hic consequatur, ad maiores voluptatum suscipit laudantium a voluptate reiciendis libero neque dicta, maxime impedit nesciunt reprehenderit vitae sit.</p>
                 <button>En savoir plus</button>
             </article>
 
             <article class="projet-section">
-                <img src="https://via.placeholder.com/150" alt="project2">
+                <img src="https://via.placeholder.com/150" alt="picture for project3">
                 <h3>PROJET 3</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, molestiae blanditiis hic consequatur, ad maiores voluptatum suscipit laudantium a voluptate reiciendis libero neque dicta, maxime impedit nesciunt reprehenderit vitae sit.</p>
                 <button>En savoir plus</button>
@@ -51,7 +53,7 @@
             <h2>ETUDES</h2>
 
             <article class="personal info">
-                <img src="https://via.placeholder.com/150" alt="picture_for_portolio">
+                <img src="https://via.placeholder.com/150" alt="picture of Matthias Lagrabe">
                 <ul>
                     <li>Lagrabe</li>
                     <li>Matthias</li>
@@ -79,7 +81,7 @@
             <h2>Articles</h2>
 
             <article class="article__title">  
-                <img src="https://via.placeholder.com/300x200" alt="article1"/>
+                <img src="https://via.placeholder.com/300x200" alt="picture for article1"/>
                 <h3 class="article__title">Article 1</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ab debitis eveniet ipsum illo voluptatibus eos, facilis omnis enim autem, iste, cumque error quos placeat tempore repudiandae minus hic et!</p>
                 <button>Lire</button>
@@ -87,7 +89,7 @@
             </article>
 
             <article class="article__title">  
-                <img src="https://via.placeholder.com/300x200" alt="article2"/>
+                <img src="https://via.placeholder.com/300x200" alt="picture for article2"/>
                 <h3 class="article__title">Article 2</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ab debitis eveniet ipsum illo voluptatibus eos, facilis omnis enim autem, iste, cumque error quos placeat tempore repudiandae minus hic et!</p>
                 <button>Lire</button>
@@ -100,15 +102,15 @@
             
             <form>
                 <label for="names">Nom et Prénom</label>
-                    <input type="text" id="names" required>
+                    <input type="text" name="names" id="names" required>
                 
 
                 <label for="email" >E-mail</label>
-                    <input type="email" id="email" required>
+                    <input type="email" name="email" id="email" required>
                 
 
                 <label for="message">Message</label>
-                    <textarea id="message" cols="75" rows="10"></textarea>
+                    <textarea id="message" name="message" cols="75" rows="10"></textarea>
                 
                 <button type="submit">Envoyé</button>
             </form>
