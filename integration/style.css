@@ -2,27 +2,57 @@ h1 {
     text-align: center;
 }
 
-img:hover {
-    opacity: 0.70;
+h2 {
+    text-align: center;
 }
 
-img {
-    border-radius: 3px;
+p {
+    text-align: left;
+}
+
+img:hover {
+    opacity: 0.70;
 }
 
 img:first-of-type {
     filter: grayscale(100%);
 }
 
+img {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    border-radius: 3px;
+}
+
+body{
+    background-color: white;
+}
+
+textarea{
+    width: 1wh;
+    height: 1wh;
+}
+
+ul li{
+    text-align: left;
+}
+
 .scrollingBurger{
-    width: 100%;
+    width: 90%;
     background-color: orange;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+    margin: auto;
 }
 
 .scrollingBurger li {
-    display: inline-block;
+    display: block;
+    text-align: center;
 }
+
 .scrollingBurger a {
     display: inline-block;
     color: white;
@@ -30,7 +60,15 @@ img:first-of-type {
     padding: 20px;
     text-decoration: none;
 }
+
 .scrollingBurger a:hover {
     color: orange;
     background-color: black;
-} 
+}
+
+@media only screen and (min-width: 600px) 
+{
+    body {
+      background-color: lightblue;
+    }
+}
