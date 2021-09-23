@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+
+img:hover {
+    opacity: 0.70;
+}
+
+img {
+    border-radius: 3px;
+}
+
+img:first-of-type {
+    filter: grayscale(100%);
+}
+
+.scrollingBurger{
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+}
+
+.scrollingBurger li {
+    display: inline-block;
+}
+.scrollingBurger a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+.scrollingBurger a:hover {
+    color: orange;
+    background-color: black;
+} 
