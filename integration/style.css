@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    color: white;
+    color: orange;
     background-color: black;
 }
 
@@ -49,9 +49,10 @@ footer {
     border-radius: 10px;
     border-style: solid;
     border-color: black;
-    margin-bottom: 10px !important;
-    justify-content: center;
+    justify-content: space-around;
     margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .project-name {
@@ -59,6 +60,17 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
     color: orange;
+}
+
+.project-section {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+#project-swipe {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .scrollingBurger{
@@ -130,9 +142,6 @@ footer {
 
 @media only screen and (min-width: 600px) 
 {
-    body {
-      background-color: lightblue;
-    }
 
     .scrollingBurger{
         background-color: orange;
