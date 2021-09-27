@@ -13,12 +13,12 @@
     <header>
         <h1>MON PORTFOLIO</h1>
         <nav>
-            <ul class="scrollingBurger">
-                <li><a href="#projet-section" title="My projects">PROJETS</a></li>
-                <li><a href="#etudes" title="Graduate studies">ETUDES</a></li>
-                <li><a href="#articles" title="Check my articles">ARTICLES</a></li>
-                <li><a href="#contact" title="Contact me">CONTACT</a></li>
-            </ul>
+            <div class="scrollingBurger">
+                <a href="#projet-section" title="My projects">PROJETS</a>
+                <a href="#etudes" title="Graduate studies">ETUDES</a>
+                <a href="#articles" title="Check my articles">ARTICLES</a>
+                <a href="#contact" title="Contact me">CONTACT</a>
+            </div>
         </nav>
     </header>
     <main>
@@ -28,88 +28,90 @@
         <section class="projet-section" id="projet-section">
             <h2>Projets réalisés</h2>
 
-            <article class="projet-section">
+            <div class="projet-section">
                 <img src="https://via.placeholder.com/150" alt="picture for project1">
-                <h3>PROJET 1</h3>
+                <p class="project-name">PROJET 1</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, molestiae blanditiis hic consequatur, ad maiores voluptatum suscipit laudantium a voluptate reiciendis libero neque dicta, maxime impedit nesciunt reprehenderit vitae sit.</p>
-                <button>En savoir plus</button>
-            </article>
+                <button class="button-know-more">En savoir plus</button>
+            </div>
 
-            <article class="projet-section">
+            <div class="projet-section">
                 <img src="https://via.placeholder.com/150" alt="picture for project2">
-                <h3>PROJET 2</h3>
+                <p class="project-name">PROJET 2</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, molestiae blanditiis hic consequatur, ad maiores voluptatum suscipit laudantium a voluptate reiciendis libero neque dicta, maxime impedit nesciunt reprehenderit vitae sit.</p>
-                <button>En savoir plus</button>
-            </article>
+                <button class="button-know-more">En savoir plus</button>
+            </div>
 
-            <article class="projet-section">
+            <div class="projet-section">
                 <img src="https://via.placeholder.com/150" alt="picture for project3">
-                <h3>PROJET 3</h3>
+                <p class="project-name">PROJET 3</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, molestiae blanditiis hic consequatur, ad maiores voluptatum suscipit laudantium a voluptate reiciendis libero neque dicta, maxime impedit nesciunt reprehenderit vitae sit.</p>
-                <button>En savoir plus</button>
-            </article>
+                <button class="button-know-more">En savoir plus</button>
+            </div>
         </section>
 
         <section class="etudes" id="etudes">
             <h2>ETUDES</h2>
 
-            <article class="personal info">
+            <div>
                 <img src="https://via.placeholder.com/150" alt="picture of Matthias Lagrabe">
-                <ul>
-                    <li>Lagrabe</li>
-                    <li>Matthias</li>
-                    <li>19</li>
-                    <li>matthias.lagrabe@gmail.com</li>
-                    <li>0637580018</li>
-                </ul>
-            </article>
+                <div class="my-info">
+                    <p>Lagrabe</p>
+                    <p>Matthias</p>
+                    <p>19</p>
+                    <p>matthias.lagrabe@gmail.com</p>
+                    <p>0637580018</p>
+                </div>
+            </div>
             
-            <article class="graduate-studies" id="graduate-studies">
-                <ol>
-                    <li>DATE</li>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptas dolor corrupti obcaecati dolorem atque aliquid est. Eos perferendis debitis laborum nam a, molestiae magnam repellat? Repellendus sunt minus natus.</p>
-                    <li>DATE</li>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptas dolor corrupti obcaecati dolorem atque aliquid est. Eos perferendis debitis laborum nam a, molestiae magnam repellat? Repellendus sunt minus natus.</p>
-                    <li>DATE</li>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptas dolor corrupti obcaecati dolorem atque aliquid est. Eos perferendis debitis laborum nam a, molestiae magnam repellat? Repellendus sunt minus natus.</p>
-                    <li>DATE</li>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptas dolor corrupti obcaecati dolorem atque aliquid est. Eos perferendis debitis laborum nam a, molestiae magnam repellat? Repellendus sunt minus natus.</p>
-                </ol>
-            </article>
+            <div>
+                <div class="graduate-studies">
+                    <p class="date-studies">DATE</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptas dolor corrupti obcaecati dolorem atque aliquid est.</p>
+                    <p class="date-studies">DATE</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptas dolor corrupti obcaecati dolorem atque aliquid est.</p>
+                    <p class="date-studies">DATE</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptas dolor corrupti obcaecati dolorem atque aliquid est.</p>
+                    <p class="date-studies">DATE</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptas dolor corrupti obcaecati dolorem atque aliquid est.</p>
+                </div>
+            </div>
         </section>
 
         <section class="articles" id="articles">
             <h2>Articles</h2>
 
-            <article class="article__title">  
+            <div>  
                 <img src="https://via.placeholder.com/300x200" alt="picture for article1"/>
-                <h3 class="article__title">Article 1</h3>
+                <p class="project-name">Article 1</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ab debitis eveniet ipsum illo voluptatibus eos, facilis omnis enim autem, iste, cumque error quos placeat tempore repudiandae minus hic et!</p>
-                <button>Lire</button>
-                <button>X commentaires</button>
-            </article>
+                <div class="article-button">
+                    <button class="article-button-style">Lire</button>
+                    <button class="article-button-style">X commentaires</button>
+                </div>       
+            </div>
 
-            <article class="article__title">  
+            <div>  
                 <img src="https://via.placeholder.com/300x200" alt="picture for article2"/>
-                <h3 class="article__title">Article 2</h3>
+                <p class="project-name">Article 2</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ab debitis eveniet ipsum illo voluptatibus eos, facilis omnis enim autem, iste, cumque error quos placeat tempore repudiandae minus hic et!</p>
-                <button>Lire</button>
-                <button>X commentaires</button>
-            </article>
+                <div class="article-button">
+                    <button class="article-button-style">Lire</button>
+                    <button class="article-button-style">X commentaires</button>
+                </div> 
+            </div>
         </section>
 
         <section class="contact" id="contact">
             <h2>Contact</h2>
             
-            <form>
+            <form class="form-box">
                 <label for="names">Nom et Prénom</label>
                     <input type="text" name="names" id="names" required>
                 
-
                 <label for="email" >E-mail</label>
                     <input type="email" name="email" id="email" required>
                 
-
                 <label for="message">Message</label>
                     <textarea id="message" name="message"></textarea>
                 <button type="submit">Envoyé</button>
