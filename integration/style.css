@@ -22,10 +22,6 @@ img:hover {
     opacity: 0.70;
 }
 
-img:first-of-type {
-    filter: grayscale(100%);
-}
-
 img {
     margin: auto;
     display: flex;
