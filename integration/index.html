@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Matthias Lagrabe">
     <meta name="description" content="Presentation of my projects">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Mon portfolio</title>
 </head>
@@ -14,7 +15,7 @@
         <h1>MON PORTFOLIO</h1>
         <nav>
             <div class="scrollingBurger">
-                <a href="#projet-section" title="My projects">PROJETS</a>
+                <a href="#projets" title="My projects">PROJETS</a>
                 <a href="#etudes" title="Graduate studies">ETUDES</a>
                 <a href="#articles" title="Check my articles">ARTICLES</a>
                 <a href="#contact" title="Contact me">CONTACT</a>
@@ -28,14 +29,14 @@
           <div>
             <h2>Projets réalisés</h2>
           </div>
-          <div class="project-section" id="project-swipe">
+          <div class="project-section" id="project-section">
             <div>
               <img src="https://via.placeholder.com/150" alt="Illustration du projet 1">
               <article>
                 <h3>Projet 1</h3>
                 Résumé en quelques lignes du projet n°1.
               </article>
-              <button class="button-know-more" title="Le projet n°1 en détails">En savoir plus</button>
+              <button class="btn btn-outline-info" title="Le projet n°1 en détails">En savoir plus</button>
             </div>
             <div>
               <img src="https://via.placeholder.com/150" alt="Illustration du projet 2">
@@ -43,7 +44,7 @@
                 <h3>Projet 2</h3>
                 Résumé en quelques lignes du projet n°2.
               </article>
-              <button class="button-know-more" title="Le projet n°2 en détails">En savoir plus</button>
+              <button class="btn btn-outline-info" title="Le projet n°2 en détails">En savoir plus</button>
             </div>
             <div>
               <img src="https://via.placeholder.com/150" alt="Illustration du projet 3">
@@ -51,7 +52,7 @@
                 <h3>Projet 3</h3>
                 Résumé en quelques lignes du projet n°3.
               </article>
-              <button class="button-know-more" title="Le projet n°3 en détails">En savoir plus</button>
+              <button type="button" class="btn btn-outline-info" title="Le projet n°3 en détails">En savoir plus</button>
             </div>
           </div>
         </section>
@@ -62,24 +63,29 @@
             </div>
             <div>
                 <img src="https://via.placeholder.com/150" alt="picture of Matthias Lagrabe">
-                <div class="my-info">
-                    <p>Lagrabe</p>
-                    <p>Matthias</p>
-                    <p>19</p>
-                    <p>matthias.lagrabe@gmail.com</p>
-                    <p>0637580018</p>
-                </div>
             </div>
-            
+                <div class="my-info">
+                    <div>
+                        Lagrabe
+                    </div>
+                    <div>
+                        Matthias
+                    </div>
+                    <div>
+                        19 ans
+                    </div>
+                    <div>
+                        <a href="mailto:matthias.lagrabe@gmail.com">matthias.lagrabe@gmail.com</a>
+                    </div>
+                    <div>
+                        <a href="tel:+33637580018">0637580018</a>
+                    </div>
+                </div>
             <div>
                 <div class="graduate-studies">
-                    <p class="date-studies">DATE</p>
+                    <div>DATE</div>
                     <p class="description-studies">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptas dolor corrupti obcaecati dolorem atque aliquid est.</p>
-                    <p class="date-studies">DATE</p>
-                    <p class="description-studies">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptas dolor corrupti obcaecati dolorem atque aliquid est.</p>
-                    <p class="date-studies">DATE</p>
-                    <p class="description-studies">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptas dolor corrupti obcaecati dolorem atque aliquid est.</p>
-                    <p class="date-studies">DATE</p>
+                    <div>DATE</div>
                     <p class="description-studies">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptas dolor corrupti obcaecati dolorem atque aliquid est.</p>
                 </div>
             </div>
@@ -88,23 +94,23 @@
         <section class="articles" id="articles">
             <h2>Articles</h2>
 
-            <div>  
+            <div class="article-description">  
                 <img src="https://via.placeholder.com/300x200" alt="picture for article1"/>
                 <p class="project-name">Article 1</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ab debitis eveniet ipsum illo voluptatibus eos, facilis omnis enim autem, iste, cumque error quos placeat tempore repudiandae minus hic et!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ab debitis eveniet ipsum illo voluptatibus eos, facilis omnis enim  autem, iste, cumque error quos placeat tempore repudiandae minus hic et!</p>
                 <div class="article-button">
-                    <button class="article-button-style">Lire</button>
-                    <button class="article-button-style">X commentaires</button>
+                    <button class="btn btn-outline-info">Lire</button>
+                    <button class="btn btn-outline-info">X commentaires</button>
                 </div>       
             </div>
 
-            <div>  
+            <div class="article-description">  
                 <img src="https://via.placeholder.com/300x200" alt="picture for article2"/>
                 <p class="project-name">Article 2</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ab debitis eveniet ipsum illo voluptatibus eos, facilis omnis enim autem, iste, cumque error quos placeat tempore repudiandae minus hic et!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ab debitis eveniet ipsum illo voluptatibus eos, facilis omnis enim  autem, iste, cumque error quos placeat tempore repudiandae minus hic et!</p>
                 <div class="article-button">
-                    <button class="article-button-style">Lire</button>
-                    <button class="article-button-style">X commentaires</button>
+                    <button class="btn btn-outline-info">Lire</button>
+                    <button class="btn btn-outline-info">X commentaires</button>
                 </div> 
             </div>
         </section>
@@ -113,15 +119,17 @@
             <h2>Contact</h2>
             
             <form class="form-box">
-                <label for="names">Nom et Prénom</label>
-                    <input type="text" name="names" id="names" required>
-                
-                <label for="email" >E-mail</label>
-                    <input type="email" name="email" id="email" required>
-                
-                <label for="message">Message</label>
+                <div class="form-floating mb-3">
+                    <label for="floatingInput"></label>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                </div>
+                <div class="foorm-floating mb-3">
+                    <label for="floatingPassword"></label>
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                </div>
+                <label for="message"></label>
                     <textarea id="message" name="message"></textarea>
-                <button type="submit">Envoyé</button>
+                <button type="submit" class="btn btn-outline-info">Send</button>
             </form>
         </section>
     </main>
